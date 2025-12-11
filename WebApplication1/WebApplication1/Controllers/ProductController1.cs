@@ -12,8 +12,10 @@ public class ProductController : Controller
     // READ
     public IActionResult Index()
     {
-        return View(products);
+        return View(products); // dùng static list đã khai báo
     }
+
+
 
     // CREATE GET
     public IActionResult Create()
